@@ -1,0 +1,118 @@
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    .col-25, .col-75, input[type=reset] {
+      width: 100%;
+      margin:auto;
+    }
+  }
+  
+  /* about page */
+  
+  .section{
+    margin-top: 50px;
+    
+  }
+  .section .who-para{
+      font-size: large;
+  }
+  
+  .section .row{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .section .row .col-md-6{
+    padding-right: 20px;
+    text-align: justify;
+  }
+  
+  .section img{
+    width: 100%;
+  }
+  .section .row .topResearch{
+    text-align: center;
+    color: #000;
+    font-size: larger;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .section .who-btn a{
+      text-decoration: none;
+     color: #fff;
+     font-size: 18px;
+  }
+  .section .who-btn1 a{
+      text-decoration: none;
+     color: #fff;
+     font-size: 18px;
+  }
+  .section .who-btn{
+      background-color: #000;
+      color: #fff;
+      padding: 8px 20px;
+      border: none;
+      margin-top: 5%;
+      border-radius: 15px;
+  }
+  .section .who-btn:hover{
+      border-radius: 25px;
+  }
+  .section .who-btn1{
+    background-color: #000;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 15px;
+}
+.section .who-btn1:hover{
+    border-radius: 25px;
+}
+.col-md-6 .font-icon .fa-brands{
+    padding-left: 20px;
+    font-size: 30px;
+}
+.col-md-6 .font-icon .fa-brands:hover{
+    transform: scale(1.1);
+}
+.col-md-6 .items-align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-align .who-btn span{
+    font-size: 14px;
+}
+.items-align .who-btn1 span{
+    font-size: 14px;
+}
+
+.items-align .who-btn1 .fa-solid{
+    font-size: 25px;
+}
+.items-align .who-btn1 .fa-brands{
+    font-size: 25px;
+}
